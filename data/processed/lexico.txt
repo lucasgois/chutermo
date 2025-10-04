@@ -6138,7 +6138,6 @@ demob
 democ
 demog
 demos
-denar
 dende
 dendi
 dendo
