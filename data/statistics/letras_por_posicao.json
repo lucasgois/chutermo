@@ -1,0 +1,657 @@
+{
+  "posicao_0": [
+    {
+      "letra": "A",
+      "quantidade": 2528,
+      "peso": 1.0
+    },
+    {
+      "letra": "C",
+      "quantidade": 1955,
+      "peso": 0.772438
+    },
+    {
+      "letra": "P",
+      "quantidade": 1658,
+      "peso": 0.654488
+    },
+    {
+      "letra": "M",
+      "quantidade": 1602,
+      "peso": 0.632248
+    },
+    {
+      "letra": "S",
+      "quantidade": 1465,
+      "peso": 0.57784
+    },
+    {
+      "letra": "T",
+      "quantidade": 1397,
+      "peso": 0.550834
+    },
+    {
+      "letra": "B",
+      "quantidade": 1384,
+      "peso": 0.545671
+    },
+    {
+      "letra": "R",
+      "quantidade": 1186,
+      "peso": 0.467037
+    },
+    {
+      "letra": "F",
+      "quantidade": 1097,
+      "peso": 0.431692
+    },
+    {
+      "letra": "L",
+      "quantidade": 1050,
+      "peso": 0.413026
+    },
+    {
+      "letra": "G",
+      "quantidade": 1011,
+      "peso": 0.397538
+    },
+    {
+      "letra": "E",
+      "quantidade": 941,
+      "peso": 0.369738
+    },
+    {
+      "letra": "D",
+      "quantidade": 914,
+      "peso": 0.359015
+    },
+    {
+      "letra": "I",
+      "quantidade": 803,
+      "peso": 0.314932
+    },
+    {
+      "letra": "V",
+      "quantidade": 742,
+      "peso": 0.290707
+    },
+    {
+      "letra": "O",
+      "quantidade": 737,
+      "peso": 0.288721
+    },
+    {
+      "letra": "N",
+      "quantidade": 710,
+      "peso": 0.277998
+    },
+    {
+      "letra": "U",
+      "quantidade": 515,
+      "peso": 0.200556
+    },
+    {
+      "letra": "J",
+      "quantidade": 504,
+      "peso": 0.196187
+    },
+    {
+      "letra": "H",
+      "quantidade": 446,
+      "peso": 0.173153
+    },
+    {
+      "letra": "Z",
+      "quantidade": 347,
+      "peso": 0.133836
+    },
+    {
+      "letra": "X",
+      "quantidade": 197,
+      "peso": 0.074265
+    },
+    {
+      "letra": "Q",
+      "quantidade": 96,
+      "peso": 0.034154
+    },
+    {
+      "letra": "K",
+      "quantidade": 65,
+      "peso": 0.021843
+    },
+    {
+      "letra": "W",
+      "quantidade": 22,
+      "peso": 0.004766
+    },
+    {
+      "letra": "Y",
+      "quantidade": 10,
+      "peso": 0.0
+    }
+  ],
+  "posicao_1": [
+    {
+      "letra": "A",
+      "quantidade": 4376,
+      "peso": 1.0
+    },
+    {
+      "letra": "O",
+      "quantidade": 3317,
+      "peso": 0.757444
+    },
+    {
+      "letra": "E",
+      "quantidade": 3113,
+      "peso": 0.710719
+    },
+    {
+      "letra": "I",
+      "quantidade": 3107,
+      "peso": 0.709345
+    },
+    {
+      "letra": "U",
+      "quantidade": 2714,
+      "peso": 0.619331
+    },
+    {
+      "letra": "R",
+      "quantidade": 1601,
+      "peso": 0.364407
+    },
+    {
+      "letra": "L",
+      "quantidade": 844,
+      "peso": 0.191022
+    },
+    {
+      "letra": "N",
+      "quantidade": 623,
+      "peso": 0.140403
+    },
+    {
+      "letra": "C",
+      "quantidade": 509,
+      "peso": 0.114292
+    },
+    {
+      "letra": "M",
+      "quantidade": 400,
+      "peso": 0.089327
+    },
+    {
+      "letra": "S",
+      "quantidade": 362,
+      "peso": 0.080623
+    },
+    {
+      "letra": "D",
+      "quantidade": 342,
+      "peso": 0.076042
+    },
+    {
+      "letra": "T",
+      "quantidade": 309,
+      "peso": 0.068484
+    },
+    {
+      "letra": "B",
+      "quantidade": 296,
+      "peso": 0.065506
+    },
+    {
+      "letra": "P",
+      "quantidade": 273,
+      "peso": 0.060238
+    },
+    {
+      "letra": "G",
+      "quantidade": 224,
+      "peso": 0.049015
+    },
+    {
+      "letra": "H",
+      "quantidade": 211,
+      "peso": 0.046038
+    },
+    {
+      "letra": "V",
+      "quantidade": 179,
+      "peso": 0.038708
+    },
+    {
+      "letra": "F",
+      "quantidade": 178,
+      "peso": 0.038479
+    },
+    {
+      "letra": "X",
+      "quantidade": 172,
+      "peso": 0.037105
+    },
+    {
+      "letra": "Z",
+      "quantidade": 96,
+      "peso": 0.019698
+    },
+    {
+      "letra": "J",
+      "quantidade": 56,
+      "peso": 0.010536
+    },
+    {
+      "letra": "Q",
+      "quantidade": 39,
+      "peso": 0.006642
+    },
+    {
+      "letra": "Y",
+      "quantidade": 21,
+      "peso": 0.002519
+    },
+    {
+      "letra": "K",
+      "quantidade": 10,
+      "peso": 0.0
+    },
+    {
+      "letra": "W",
+      "quantidade": 10,
+      "peso": 0.0
+    }
+  ],
+  "posicao_2": [
+    {
+      "letra": "R",
+      "quantidade": 2223,
+      "peso": 1.0
+    },
+    {
+      "letra": "I",
+      "quantidade": 2190,
+      "peso": 0.985108
+    },
+    {
+      "letra": "N",
+      "quantidade": 1880,
+      "peso": 0.845217
+    },
+    {
+      "letra": "A",
+      "quantidade": 1773,
+      "peso": 0.796931
+    },
+    {
+      "letra": "L",
+      "quantidade": 1675,
+      "peso": 0.752708
+    },
+    {
+      "letra": "C",
+      "quantidade": 1257,
+      "peso": 0.564079
+    },
+    {
+      "letra": "E",
+      "quantidade": 1249,
+      "peso": 0.560469
+    },
+    {
+      "letra": "T",
+      "quantidade": 1232,
+      "peso": 0.552798
+    },
+    {
+      "letra": "U",
+      "quantidade": 1191,
+      "peso": 0.534296
+    },
+    {
+      "letra": "S",
+      "quantidade": 1099,
+      "peso": 0.49278
+    },
+    {
+      "letra": "O",
+      "quantidade": 1096,
+      "peso": 0.491426
+    },
+    {
+      "letra": "M",
+      "quantidade": 1021,
+      "peso": 0.457581
+    },
+    {
+      "letra": "D",
+      "quantidade": 830,
+      "peso": 0.37139
+    },
+    {
+      "letra": "G",
+      "quantidade": 814,
+      "peso": 0.36417
+    },
+    {
+      "letra": "B",
+      "quantidade": 764,
+      "peso": 0.341606
+    },
+    {
+      "letra": "P",
+      "quantidade": 700,
+      "peso": 0.312726
+    },
+    {
+      "letra": "V",
+      "quantidade": 496,
+      "peso": 0.220668
+    },
+    {
+      "letra": "F",
+      "quantidade": 481,
+      "peso": 0.213899
+    },
+    {
+      "letra": "X",
+      "quantidade": 471,
+      "peso": 0.209386
+    },
+    {
+      "letra": "Z",
+      "quantidade": 337,
+      "peso": 0.148917
+    },
+    {
+      "letra": "J",
+      "quantidade": 328,
+      "peso": 0.144856
+    },
+    {
+      "letra": "Q",
+      "quantidade": 113,
+      "peso": 0.047834
+    },
+    {
+      "letra": "H",
+      "quantidade": 109,
+      "peso": 0.046029
+    },
+    {
+      "letra": "Y",
+      "quantidade": 32,
+      "peso": 0.011282
+    },
+    {
+      "letra": "K",
+      "quantidade": 14,
+      "peso": 0.003159
+    },
+    {
+      "letra": "W",
+      "quantidade": 7,
+      "peso": 0.0
+    }
+  ],
+  "posicao_3": [
+    {
+      "letra": "A",
+      "quantidade": 4027,
+      "peso": 1.0
+    },
+    {
+      "letra": "E",
+      "quantidade": 3001,
+      "peso": 0.74484
+    },
+    {
+      "letra": "O",
+      "quantidade": 2457,
+      "peso": 0.60955
+    },
+    {
+      "letra": "I",
+      "quantidade": 2447,
+      "peso": 0.607063
+    },
+    {
+      "letra": "R",
+      "quantidade": 1274,
+      "peso": 0.315344
+    },
+    {
+      "letra": "T",
+      "quantidade": 1211,
+      "peso": 0.299677
+    },
+    {
+      "letra": "U",
+      "quantidade": 1041,
+      "peso": 0.257399
+    },
+    {
+      "letra": "D",
+      "quantidade": 858,
+      "peso": 0.211888
+    },
+    {
+      "letra": "C",
+      "quantidade": 841,
+      "peso": 0.20766
+    },
+    {
+      "letra": "N",
+      "quantidade": 824,
+      "peso": 0.203432
+    },
+    {
+      "letra": "L",
+      "quantidade": 797,
+      "peso": 0.196717
+    },
+    {
+      "letra": "M",
+      "quantidade": 749,
+      "peso": 0.18478
+    },
+    {
+      "letra": "S",
+      "quantidade": 675,
+      "peso": 0.166377
+    },
+    {
+      "letra": "B",
+      "quantidade": 557,
+      "peso": 0.137031
+    },
+    {
+      "letra": "G",
+      "quantidade": 550,
+      "peso": 0.13529
+    },
+    {
+      "letra": "P",
+      "quantidade": 427,
+      "peso": 0.1047
+    },
+    {
+      "letra": "V",
+      "quantidade": 401,
+      "peso": 0.098234
+    },
+    {
+      "letra": "H",
+      "quantidade": 360,
+      "peso": 0.088038
+    },
+    {
+      "letra": "J",
+      "quantidade": 227,
+      "peso": 0.054961
+    },
+    {
+      "letra": "X",
+      "quantidade": 214,
+      "peso": 0.051728
+    },
+    {
+      "letra": "F",
+      "quantidade": 196,
+      "peso": 0.047252
+    },
+    {
+      "letra": "Z",
+      "quantidade": 185,
+      "peso": 0.044516
+    },
+    {
+      "letra": "K",
+      "quantidade": 37,
+      "peso": 0.00771
+    },
+    {
+      "letra": "Y",
+      "quantidade": 13,
+      "peso": 0.001741
+    },
+    {
+      "letra": "W",
+      "quantidade": 7,
+      "peso": 0.000249
+    },
+    {
+      "letra": "Q",
+      "quantidade": 6,
+      "peso": 0.0
+    }
+  ],
+  "posicao_4": [
+    {
+      "letra": "O",
+      "quantidade": 4944,
+      "peso": 1.0
+    },
+    {
+      "letra": "A",
+      "quantidade": 4308,
+      "peso": 0.871307
+    },
+    {
+      "letra": "E",
+      "quantidade": 2548,
+      "peso": 0.515176
+    },
+    {
+      "letra": "S",
+      "quantidade": 2411,
+      "peso": 0.487454
+    },
+    {
+      "letra": "I",
+      "quantidade": 1889,
+      "peso": 0.381829
+    },
+    {
+      "letra": "B",
+      "quantidade": 1421,
+      "peso": 0.287131
+    },
+    {
+      "letra": "M",
+      "quantidade": 1369,
+      "peso": 0.276609
+    },
+    {
+      "letra": "R",
+      "quantidade": 1061,
+      "peso": 0.214286
+    },
+    {
+      "letra": "U",
+      "quantidade": 946,
+      "peso": 0.191016
+    },
+    {
+      "letra": "L",
+      "quantidade": 664,
+      "peso": 0.133954
+    },
+    {
+      "letra": "Y",
+      "quantidade": 507,
+      "peso": 0.102185
+    },
+    {
+      "letra": "D",
+      "quantidade": 270,
+      "peso": 0.054229
+    },
+    {
+      "letra": "N",
+      "quantidade": 227,
+      "peso": 0.045528
+    },
+    {
+      "letra": "Z",
+      "quantidade": 167,
+      "peso": 0.033387
+    },
+    {
+      "letra": "X",
+      "quantidade": 131,
+      "peso": 0.026103
+    },
+    {
+      "letra": "T",
+      "quantidade": 128,
+      "peso": 0.025496
+    },
+    {
+      "letra": "V",
+      "quantidade": 104,
+      "peso": 0.020639
+    },
+    {
+      "letra": "C",
+      "quantidade": 71,
+      "peso": 0.013962
+    },
+    {
+      "letra": "G",
+      "quantidade": 52,
+      "peso": 0.010117
+    },
+    {
+      "letra": "F",
+      "quantidade": 47,
+      "peso": 0.009106
+    },
+    {
+      "letra": "P",
+      "quantidade": 40,
+      "peso": 0.007689
+    },
+    {
+      "letra": "H",
+      "quantidade": 34,
+      "peso": 0.006475
+    },
+    {
+      "letra": "K",
+      "quantidade": 31,
+      "peso": 0.005868
+    },
+    {
+      "letra": "J",
+      "quantidade": 10,
+      "peso": 0.001619
+    },
+    {
+      "letra": "Q",
+      "quantidade": 2,
+      "peso": 0.0
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "binomio": "AR",
+    "quantidade": 1612,
+    "peso": 1.0
+  },
+  {
+    "binomio": "RA",
+    "quantidade": 1344,
+    "peso": 0.833644
+  },
+  {
+    "binomio": "CA",
+    "quantidade": 1213,
+    "peso": 0.752328
+  },
+  {
+    "binomio": "AS",
+    "quantidade": 1175,
+    "peso": 0.72874
+  },
+  {
+    "binomio": "RE",
+    "quantidade": 1157,
+    "peso": 0.717567
+  },
+  {
+    "binomio": "AI",
+    "quantidade": 1134,
+    "peso": 0.70329
+  },
+  {
+    "binomio": "AL",
+    "quantidade": 1132,
+    "peso": 0.702048
+  },
+  {
+    "binomio": "TA",
+    "quantidade": 1044,
+    "peso": 0.647424
+  },
+  {
+    "binomio": "IA",
+    "quantidade": 1042,
+    "peso": 0.646182
+  },
+  {
+    "binomio": "AM",
+    "quantidade": 1028,
+    "peso": 0.637492
+  },
+  {
+    "binomio": "ES",
+    "quantidade": 1012,
+    "peso": 0.627561
+  },
+  {
+    "binomio": "RO",
+    "quantidade": 992,
+    "peso": 0.615146
+  },
+  {
+    "binomio": "CO",
+    "quantidade": 984,
+    "peso": 0.61018
+  },
+  {
+    "binomio": "LA",
+    "quantidade": 924,
+    "peso": 0.572936
+  },
+  {
+    "binomio": "MA",
+    "quantidade": 920,
+    "peso": 0.570453
+  },
+  {
+    "binomio": "AN",
+    "quantidade": 915,
+    "peso": 0.567349
+  },
+  {
+    "binomio": "TE",
+    "quantidade": 883,
+    "peso": 0.547486
+  },
+  {
+    "binomio": "TO",
+    "quantidade": 879,
+    "peso": 0.545003
+  },
+  {
+    "binomio": "EI",
+    "quantidade": 867,
+    "peso": 0.537554
+  },
+  {
+    "binomio": "RI",
+    "quantidade": 861,
+    "peso": 0.53383
+  },
+  {
+    "binomio": "ER",
+    "quantidade": 845,
+    "peso": 0.523898
+  },
+  {
+    "binomio": "NA",
+    "quantidade": 844,
+    "peso": 0.523277
+  },
+  {
+    "binomio": "AB",
+    "quantidade": 827,
+    "peso": 0.512725
+  },
+  {
+    "binomio": "EM",
+    "quantidade": 823,
+    "peso": 0.510242
+  },
+  {
+    "binomio": "LE",
+    "quantidade": 784,
+    "peso": 0.486034
+  },
+  {
+    "binomio": "IO",
+    "quantidade": 780,
+    "peso": 0.483551
+  },
+  {
+    "binomio": "BA",
+    "quantidade": 772,
+    "peso": 0.478585
+  },
+  {
+    "binomio": "GA",
+    "quantidade": 760,
+    "peso": 0.471136
+  },
+  {
+    "binomio": "OR",
+    "quantidade": 755,
+    "peso": 0.468032
+  },
+  {
+    "binomio": "IN",
+    "quantidade": 740,
+    "peso": 0.458721
+  },
+  {
+    "binomio": "AO",
+    "quantidade": 733,
+    "peso": 0.454376
+  },
+  {
+    "binomio": "SA",
+    "quantidade": 728,
+    "peso": 0.451273
+  },
+  {
+    "binomio": "OS",
+    "quantidade": 722,
+    "peso": 0.447548
+  },
+  {
+    "binomio": "LO",
+    "quantidade": 709,
+    "peso": 0.439479
+  },
+  {
+    "binomio": "IS",
+    "quantidade": 700,
+    "peso": 0.433892
+  },
+  {
+    "binomio": "MO",
+    "quantidade": 697,
+    "peso": 0.43203
+  },
+  {
+    "binomio": "PA",
+    "quantidade": 690,
+    "peso": 0.427685
+  },
+  {
+    "binomio": "OU",
+    "quantidade": 668,
+    "peso": 0.414029
+  },
+  {
+    "binomio": "LI",
+    "quantidade": 665,
+    "peso": 0.412166
+  },
+  {
+    "binomio": "DO",
+    "quantidade": 654,
+    "peso": 0.405338
+  },
+  {
+    "binomio": "AC",
+    "quantidade": 651,
+    "peso": 0.403476
+  },
+  {
+    "binomio": "ME",
+    "quantidade": 651,
+    "peso": 0.403476
+  },
+  {
+    "binomio": "EL",
+    "quantidade": 648,
+    "peso": 0.401614
+  },
+  {
+    "binomio": "DE",
+    "quantidade": 638,
+    "peso": 0.395407
+  },
+  {
+    "binomio": "SE",
+    "quantidade": 634,
+    "peso": 0.392924
+  },
+  {
+    "binomio": "IR",
+    "quantidade": 633,
+    "peso": 0.392303
+  },
+  {
+    "binomio": "DA",
+    "quantidade": 627,
+    "peso": 0.388579
+  },
+  {
+    "binomio": "PE",
+    "quantidade": 616,
+    "peso": 0.38175
+  },
+  {
+    "binomio": "EN",
+    "quantidade": 614,
+    "peso": 0.380509
+  },
+  {
+    "binomio": "NO",
+    "quantidade": 604,
+    "peso": 0.374302
+  },
+  {
+    "binomio": "UR",
+    "quantidade": 604,
+    "peso": 0.374302
+  },
+  {
+    "binomio": "BO",
+    "quantidade": 602,
+    "peso": 0.37306
+  },
+  {
+    "binomio": "NE",
+    "quantidade": 586,
+    "peso": 0.363128
+  },
+  {
+    "binomio": "OL",
+    "quantidade": 583,
+    "peso": 0.361266
+  },
+  {
+    "binomio": "AT",
+    "quantidade": 565,
+    "peso": 0.350093
+  },
+  {
+    "binomio": "SO",
+    "quantidade": 558,
+    "peso": 0.345748
+  },
+  {
+    "binomio": "ON",
+    "quantidade": 558,
+    "peso": 0.345748
+  },
+  {
+    "binomio": "VA",
+    "quantidade": 540,
+    "peso": 0.334575
+  },
+  {
+    "binomio": "IL",
+    "quantidade": 540,
+    "peso": 0.334575
+  },
+  {
+    "binomio": "IM",
+    "quantidade": 540,
+    "peso": 0.334575
+  },
+  {
+    "binomio": "UA",
+    "quantidade": 530,
+    "peso": 0.328367
+  },
+  {
+    "binomio": "PO",
+    "quantidade": 525,
+    "peso": 0.325264
+  },
+  {
+    "binomio": "TI",
+    "quantidade": 524,
+    "peso": 0.324643
+  },
+  {
+    "binomio": "GO",
+    "quantidade": 522,
+    "peso": 0.323402
+  },
+  {
+    "binomio": "EO",
+    "quantidade": 510,
+    "peso": 0.315953
+  },
+  {
+    "binomio": "PI",
+    "quantidade": 506,
+    "peso": 0.31347
+  },
+  {
+    "binomio": "OB",
+    "quantidade": 495,
+    "peso": 0.306642
+  },
+  {
+    "binomio": "BE",
+    "quantidade": 494,
+    "peso": 0.306021
+  },
+  {
+    "binomio": "IT",
+    "quantidade": 489,
+    "peso": 0.302917
+  },
+  {
+    "binomio": "RU",
+    "quantidade": 485,
+    "peso": 0.300435
+  },
+  {
+    "binomio": "MI",
+    "quantidade": 479,
+    "peso": 0.29671
+  },
+  {
+    "binomio": "AD",
+    "quantidade": 471,
+    "peso": 0.291744
+  },
+  {
+    "binomio": "OO",
+    "quantidade": 469,
+    "peso": 0.290503
+  },
+  {
+    "binomio": "VI",
+    "quantidade": 460,
+    "peso": 0.284916
+  },
+  {
+    "binomio": "DI",
+    "quantidade": 451,
+    "peso": 0.27933
+  },
+  {
+    "binomio": "FA",
+    "quantidade": 450,
+    "peso": 0.278709
+  },
+  {
+    "binomio": "EB",
+    "quantidade": 450,
+    "peso": 0.278709
+  },
+  {
+    "binomio": "JA",
+    "quantidade": 448,
+    "peso": 0.277467
+  },
+  {
+    "binomio": "BI",
+    "quantidade": 443,
+    "peso": 0.274364
+  },
+  {
+    "binomio": "CE",
+    "quantidade": 435,
+    "peso": 0.269398
+  },
+  {
+    "binomio": "NI",
+    "quantidade": 431,
+    "peso": 0.266915
+  },
+  {
+    "binomio": "VE",
+    "quantidade": 430,
+    "peso": 0.266294
+  },
+  {
+    "binomio": "OD",
+    "quantidade": 428,
+    "peso": 0.265053
+  },
+  {
+    "binomio": "IC",
+    "quantidade": 426,
+    "peso": 0.263811
+  },
+  {
+    "binomio": "IB",
+    "quantidade": 423,
+    "peso": 0.261949
+  },
+  {
+    "binomio": "UI",
+    "quantidade": 420,
+    "peso": 0.260087
+  },
+  {
+    "binomio": "OM",
+    "quantidade": 416,
+    "peso": 0.257604
+  },
+  {
+    "binomio": "CI",
+    "quantidade": 407,
+    "peso": 0.252017
+  },
+  {
+    "binomio": "UN",
+    "quantidade": 405,
+    "peso": 0.250776
+  },
+  {
+    "binomio": "UE",
+    "quantidade": 398,
+    "peso": 0.246431
+  },
+  {
+    "binomio": "CU",
+    "quantidade": 397,
+    "peso": 0.24581
+  },
+  {
+    "binomio": "UL",
+    "quantidade": 393,
+    "peso": 0.243327
+  },
+  {
+    "binomio": "AP",
+    "quantidade": 386,
+    "peso": 0.238982
+  },
+  {
+    "binomio": "AU",
+    "quantidade": 380,
+    "peso": 0.235258
+  },
+  {
+    "binomio": "US",
+    "quantidade": 379,
+    "peso": 0.234637
+  },
+  {
+    "binomio": "UB",
+    "quantidade": 375,
+    "peso": 0.232154
+  },
+  {
+    "binomio": "HA",
+    "quantidade": 371,
+    "peso": 0.229671
+  },
+  {
+    "binomio": "ET",
+    "quantidade": 363,
+    "peso": 0.224705
+  },
+  {
+    "binomio": "LU",
+    "quantidade": 356,
+    "peso": 0.22036
+  },
+  {
+    "binomio": "IE",
+    "quantidade": 350,
+    "peso": 0.216636
+  }
+]

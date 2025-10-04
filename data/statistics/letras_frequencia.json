@@ -1,0 +1,132 @@
+[
+  {
+    "letra": "A",
+    "quantidade": 17012,
+    "peso": 1.0
+  },
+  {
+    "letra": "O",
+    "quantidade": 12551,
+    "peso": 0.737062
+  },
+  {
+    "letra": "E",
+    "quantidade": 10852,
+    "peso": 0.636921
+  },
+  {
+    "letra": "I",
+    "quantidade": 10436,
+    "peso": 0.612401
+  },
+  {
+    "letra": "R",
+    "quantidade": 7345,
+    "peso": 0.430213
+  },
+  {
+    "letra": "U",
+    "quantidade": 6407,
+    "peso": 0.374926
+  },
+  {
+    "letra": "S",
+    "quantidade": 6012,
+    "peso": 0.351644
+  },
+  {
+    "letra": "M",
+    "quantidade": 5141,
+    "peso": 0.300306
+  },
+  {
+    "letra": "L",
+    "quantidade": 5030,
+    "peso": 0.293764
+  },
+  {
+    "letra": "C",
+    "quantidade": 4633,
+    "peso": 0.270364
+  },
+  {
+    "letra": "B",
+    "quantidade": 4422,
+    "peso": 0.257928
+  },
+  {
+    "letra": "T",
+    "quantidade": 4277,
+    "peso": 0.249381
+  },
+  {
+    "letra": "N",
+    "quantidade": 4264,
+    "peso": 0.248615
+  },
+  {
+    "letra": "D",
+    "quantidade": 3214,
+    "peso": 0.186726
+  },
+  {
+    "letra": "P",
+    "quantidade": 3098,
+    "peso": 0.179889
+  },
+  {
+    "letra": "G",
+    "quantidade": 2651,
+    "peso": 0.153542
+  },
+  {
+    "letra": "F",
+    "quantidade": 1999,
+    "peso": 0.115113
+  },
+  {
+    "letra": "V",
+    "quantidade": 1922,
+    "peso": 0.110574
+  },
+  {
+    "letra": "X",
+    "quantidade": 1185,
+    "peso": 0.067134
+  },
+  {
+    "letra": "H",
+    "quantidade": 1160,
+    "peso": 0.065661
+  },
+  {
+    "letra": "Z",
+    "quantidade": 1132,
+    "peso": 0.06401
+  },
+  {
+    "letra": "J",
+    "quantidade": 1125,
+    "peso": 0.063598
+  },
+  {
+    "letra": "Y",
+    "quantidade": 583,
+    "peso": 0.031652
+  },
+  {
+    "letra": "Q",
+    "quantidade": 256,
+    "peso": 0.012378
+  },
+  {
+    "letra": "K",
+    "quantidade": 157,
+    "peso": 0.006542
+  },
+  {
+    "letra": "W",
+    "quantidade": 46,
+    "peso": 0.0
+  }
+]

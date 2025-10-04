@@ -1,0 +1,502 @@
+[
+  {
+    "trinomio": "ARA",
+    "quantidade": 197,
+    "peso": 1.0
+  },
+  {
+    "trinomio": "ANA",
+    "quantidade": 180,
+    "peso": 0.913265
+  },
+  {
+    "trinomio": "ACA",
+    "quantidade": 165,
+    "peso": 0.836735
+  },
+  {
+    "trinomio": "IRA",
+    "quantidade": 157,
+    "peso": 0.795918
+  },
+  {
+    "trinomio": "ALA",
+    "quantidade": 152,
+    "peso": 0.770408
+  },
+  {
+    "trinomio": "ITA",
+    "quantidade": 142,
+    "peso": 0.719388
+  },
+  {
+    "trinomio": "ICA",
+    "quantidade": 135,
+    "peso": 0.683673
+  },
+  {
+    "trinomio": "ATA",
+    "quantidade": 134,
+    "peso": 0.678571
+  },
+  {
+    "trinomio": "INA",
+    "quantidade": 134,
+    "peso": 0.678571
+  },
+  {
+    "trinomio": "ARI",
+    "quantidade": 128,
+    "peso": 0.647959
+  },
+  {
+    "trinomio": "ALO",
+    "quantidade": 124,
+    "peso": 0.627551
+  },
+  {
+    "trinomio": "ACO",
+    "quantidade": 123,
+    "peso": 0.622449
+  },
+  {
+    "trinomio": "ALE",
+    "quantidade": 120,
+    "peso": 0.607143
+  },
+  {
+    "trinomio": "OCA",
+    "quantidade": 119,
+    "peso": 0.602041
+  },
+  {
+    "trinomio": "AMA",
+    "quantidade": 118,
+    "peso": 0.596939
+  },
+  {
+    "trinomio": "CAR",
+    "quantidade": 118,
+    "peso": 0.596939
+  },
+  {
+    "trinomio": "QUE",
+    "quantidade": 117,
+    "peso": 0.591837
+  },
+  {
+    "trinomio": "ELE",
+    "quantidade": 116,
+    "peso": 0.586735
+  },
+  {
+    "trinomio": "ARE",
+    "quantidade": 115,
+    "peso": 0.581633
+  },
+  {
+    "trinomio": "ATE",
+    "quantidade": 115,
+    "peso": 0.581633
+  },
+  {
+    "trinomio": "ADO",
+    "quantidade": 114,
+    "peso": 0.576531
+  },
+  {
+    "trinomio": "URA",
+    "quantidade": 113,
+    "peso": 0.571429
+  },
+  {
+    "trinomio": "AVA",
+    "quantidade": 110,
+    "peso": 0.556122
+  },
+  {
+    "trinomio": "ANE",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "ICO",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "ITE",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "RAS",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "REM",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "MAR",
+    "quantidade": 107,
+    "peso": 0.540816
+  },
+  {
+    "trinomio": "ABA",
+    "quantidade": 105,
+    "peso": 0.530612
+  },
+  {
+    "trinomio": "ADA",
+    "quantidade": 105,
+    "peso": 0.530612
+  },
+  {
+    "trinomio": "ELA",
+    "quantidade": 104,
+    "peso": 0.52551
+  },
+  {
+    "trinomio": "ITO",
+    "quantidade": 103,
+    "peso": 0.520408
+  },
+  {
+    "trinomio": "RIA",
+    "quantidade": 103,
+    "peso": 0.520408
+  },
+  {
+    "trinomio": "ERE",
+    "quantidade": 103,
+    "peso": 0.520408
+  },
+  {
+    "trinomio": "ORA",
+    "quantidade": 101,
+    "peso": 0.510204
+  },
+  {
+    "trinomio": "RES",
+    "quantidade": 100,
+    "peso": 0.505102
+  },
+  {
+    "trinomio": "ERA",
+    "quantidade": 100,
+    "peso": 0.505102
+  },
+  {
+    "trinomio": "ANO",
+    "quantidade": 99,
+    "peso": 0.5
+  },
+  {
+    "trinomio": "CAI",
+    "quantidade": 99,
+    "peso": 0.5
+  },
+  {
+    "trinomio": "ENA",
+    "quantidade": 99,
+    "peso": 0.5
+  },
+  {
+    "trinomio": "CHA",
+    "quantidade": 99,
+    "peso": 0.5
+  },
+  {
+    "trinomio": "ETA",
+    "quantidade": 98,
+    "peso": 0.494898
+  },
+  {
+    "trinomio": "ILA",
+    "quantidade": 98,
+    "peso": 0.494898
+  },
+  {
+    "trinomio": "AGA",
+    "quantidade": 98,
+    "peso": 0.494898
+  },
+  {
+    "trinomio": "ALI",
+    "quantidade": 98,
+    "peso": 0.494898
+  },
+  {
+    "trinomio": "ATO",
+    "quantidade": 96,
+    "peso": 0.484694
+  },
+  {
+    "trinomio": "REI",
+    "quantidade": 96,
+    "peso": 0.484694
+  },
+  {
+    "trinomio": "CAS",
+    "quantidade": 95,
+    "peso": 0.479592
+  },
+  {
+    "trinomio": "INO",
+    "quantidade": 95,
+    "peso": 0.479592
+  },
+  {
+    "trinomio": "RAI",
+    "quantidade": 95,
+    "peso": 0.479592
+  },
+  {
+    "trinomio": "PAR",
+    "quantidade": 95,
+    "peso": 0.479592
+  },
+  {
+    "trinomio": "AIA",
+    "quantidade": 94,
+    "peso": 0.47449
+  },
+  {
+    "trinomio": "OLA",
+    "quantidade": 94,
+    "peso": 0.47449
+  },
+  {
+    "trinomio": "INE",
+    "quantidade": 93,
+    "peso": 0.469388
+  },
+  {
+    "trinomio": "ARO",
+    "quantidade": 91,
+    "peso": 0.459184
+  },
+  {
+    "trinomio": "ATI",
+    "quantidade": 90,
+    "peso": 0.454082
+  },
+  {
+    "trinomio": "ILO",
+    "quantidade": 90,
+    "peso": 0.454082
+  },
+  {
+    "trinomio": "CAL",
+    "quantidade": 90,
+    "peso": 0.454082
+  },
+  {
+    "trinomio": "GUE",
+    "quantidade": 90,
+    "peso": 0.454082
+  },
+  {
+    "trinomio": "TAR",
+    "quantidade": 90,
+    "peso": 0.454082
+  },
+  {
+    "trinomio": "OTA",
+    "quantidade": 89,
+    "peso": 0.44898
+  },
+  {
+    "trinomio": "APE",
+    "quantidade": 89,
+    "peso": 0.44898
+  },
+  {
+    "trinomio": "ETE",
+    "quantidade": 88,
+    "peso": 0.443878
+  },
+  {
+    "trinomio": "RAM",
+    "quantidade": 87,
+    "peso": 0.438776
+  },
+  {
+    "trinomio": "AMO",
+    "quantidade": 87,
+    "peso": 0.438776
+  },
+  {
+    "trinomio": "ROS",
+    "quantidade": 87,
+    "peso": 0.438776
+  },
+  {
+    "trinomio": "QUI",
+    "quantidade": 87,
+    "peso": 0.438776
+  },
+  {
+    "trinomio": "ELO",
+    "quantidade": 86,
+    "peso": 0.433673
+  },
+  {
+    "trinomio": "TRA",
+    "quantidade": 85,
+    "peso": 0.428571
+  },
+  {
+    "trinomio": "ACU",
+    "quantidade": 84,
+    "peso": 0.423469
+  },
+  {
+    "trinomio": "IRO",
+    "quantidade": 84,
+    "peso": 0.423469
+  },
+  {
+    "trinomio": "ANI",
+    "quantidade": 84,
+    "peso": 0.423469
+  },
+  {
+    "trinomio": "AIS",
+    "quantidade": 83,
+    "peso": 0.418367
+  },
+  {
+    "trinomio": "LAS",
+    "quantidade": 83,
+    "peso": 0.418367
+  },
+  {
+    "trinomio": "TES",
+    "quantidade": 83,
+    "peso": 0.418367
+  },
+  {
+    "trinomio": "ABO",
+    "quantidade": 82,
+    "peso": 0.413265
+  },
+  {
+    "trinomio": "APA",
+    "quantidade": 82,
+    "peso": 0.413265
+  },
+  {
+    "trinomio": "GAR",
+    "quantidade": 82,
+    "peso": 0.413265
+  },
+  {
+    "trinomio": "UCA",
+    "quantidade": 82,
+    "peso": 0.413265
+  },
+  {
+    "trinomio": "IDA",
+    "quantidade": 81,
+    "peso": 0.408163
+  },
+  {
+    "trinomio": "OMA",
+    "quantidade": 81,
+    "peso": 0.408163
+  },
+  {
+    "trinomio": "ULA",
+    "quantidade": 81,
+    "peso": 0.408163
+  },
+  {
+    "trinomio": "AMB",
+    "quantidade": 81,
+    "peso": 0.408163
+  },
+  {
+    "trinomio": "AND",
+    "quantidade": 81,
+    "peso": 0.408163
+  },
+  {
+    "trinomio": "OLE",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "ONA",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "ORE",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "ERO",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "OTO",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "SAR",
+    "quantidade": 80,
+    "peso": 0.403061
+  },
+  {
+    "trinomio": "RIO",
+    "quantidade": 79,
+    "peso": 0.397959
+  },
+  {
+    "trinomio": "UTA",
+    "quantidade": 79,
+    "peso": 0.397959
+  },
+  {
+    "trinomio": "LES",
+    "quantidade": 79,
+    "peso": 0.397959
+  },
+  {
+    "trinomio": "AME",
+    "quantidade": 78,
+    "peso": 0.392857
+  },
+  {
+    "trinomio": "TAS",
+    "quantidade": 78,
+    "peso": 0.392857
+  },
+  {
+    "trinomio": "ENO",
+    "quantidade": 77,
+    "peso": 0.387755
+  },
+  {
+    "trinomio": "LEI",
+    "quantidade": 77,
+    "peso": 0.387755
+  },
+  {
+    "trinomio": "ADE",
+    "quantidade": 76,
+    "peso": 0.382653
+  },
+  {
+    "trinomio": "IMA",
+    "quantidade": 76,
+    "peso": 0.382653
+  }
+]
