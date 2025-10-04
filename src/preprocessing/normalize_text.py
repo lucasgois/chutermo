@@ -76,7 +76,7 @@ if __name__ == "__main__":
     processed_data_dir = 'C:/Users/Lucas/Documents/Projeto/chutermo/data/processed'
 
     # Nome do arquivo de saída único
-    output_file_path = os.path.join(processed_data_dir, 'palavras_5_letras.txt')
+    output_file_path = os.path.join(processed_data_dir, 'lexico.txt')
 
     # Garante que o diretório de saída exista
     os.makedirs(processed_data_dir, exist_ok=True)
