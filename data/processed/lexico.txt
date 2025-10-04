@@ -5728,7 +5728,6 @@ culas
 culca
 culco
 culed
-culeo
 culex
 culib
 culin
@@ -12976,7 +12975,6 @@ mardo
 marei
 marel
 marem
-mareo
 mares
 mareu
 marfa
@@ -12993,7 +12991,6 @@ marie
 marii
 marim
 marin
-mario
 marit
 mariz
 marja
@@ -20360,7 +20357,6 @@ tareo
 tares
 taria
 tarim
-tario
 tarja
 tarje
 tarjo
