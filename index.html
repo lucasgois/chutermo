@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chutermo - Auxiliar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        .mode-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            background: #f8f9fa;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            background: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            color: #666;
+        }
+
+        .mode-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .mode-btn:hover:not(.active) {
+            background: #e9ecef;
+        }
+
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        .input-wrapper {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 15px;
+            font-size: 1.2em;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .suggestions-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .suggestions-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .suggestion-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 8px;
+        }
+
+        .suggestion-item {
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .suggestion-item:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .loading {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+        }
+
+        .attempts {
+            margin-top: 30px;
+        }
+
+        .attempt {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .word-row {
+            display: flex;
+            gap: 8px;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .letter-box {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            user-select: none;
+        }
+
+        .letter-box:hover {
+            transform: scale(1.1);
+        }
+
+        .status-absent {
+            background: #787c7e;
+            color: white;
+        }
+
+        .status-present {
+            background: #c9b458;
+            color: white;
+        }
+
+        .status-correct {
+            background: #6aaa64;
+            color: white;
+        }
+
+        .remove-btn {
+            padding: 8px 12px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            min-width: 80px;
+            transition: all 0.3s;
+        }
+
+        .remove-btn:hover {
+            background: #c82333;
+            transform: scale(1.05);
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #999;
+            padding: 40px;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .letter-box {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2em;
+            }
+
+            .suggestion-list {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🎯 Chutermo</h1>
+
+    <div class="mode-selector">
+        <button class="mode-btn active" onclick="setMode('exploration')">
+            🔍 Exploração
+        </button>
+        <button class="mode-btn" onclick="setMode('exploitation')">
+            🎯 Explotação
+        </button>
+    </div>
+
+    <div class="suggestions-section">
+        <h3 id="suggestionsTitle">Sugestões de Exploração</h3>
+        <div id="suggestions" class="loading">
+            Carregando dados...
+        </div>
+    </div>
+
+    <div class="input-section">
+        <div class="input-wrapper">
+            <input
+                    type="text"
+                    id="wordInput"
+                    placeholder="Digite uma palavra"
+                    maxlength="5"
+                    autocomplete="off"
+            >
+            <button onclick="addWord()">Adicionar</button>
+        </div>
+        <p style="color: #666; font-size: 0.9em; text-align: center;">
+            Clique nas letras para alternar entre as cores
+        </p>
+    </div>
+
+    <div class="attempts" id="attempts">
+        <div class="empty-state">
+            Nenhuma tentativa ainda. Digite uma palavra acima!
+        </div>
+    </div>
+</div>
+
+<script>
+    let attempts = [];
+    let currentMode = 'exploration';
+    let wordList = [];
+    let statistics = {
+        letrasFrequencia: [],
+        letrasPorPosicao: {},
+        binomiosFrequencia: [],
+        binomiosPorPosicao: {},
+        trinomiosFrequencia: [],
+        trinomiosPorPosicao: {}
+    };
+
+    // Carregar dados
+    async function loadData() {
+        try {
+            // Carregar léxico
+            const lexicoResponse = await fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/processed/lexico.txt');
+            const lexicoText = await lexicoResponse.text();
+            wordList = lexicoText.split('\n').map(w => w.trim().toUpperCase()).filter(w => w.length === 5);
+
+            // Carregar estatísticas
+            const [letras, letrasPosicao, binomios, binomiosPosicao, trinomios, trinomiosPosicao] = await Promise.all([
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/letras_frequencia.json').then(r => r.json()),
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/letras_por_posicao.json').then(r => r.json()),
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/binomios_frequencia.json').then(r => r.json()),
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/binomios_por_posicao.json').then(r => r.json()),
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/trinomios_frequencia.json').then(r => r.json()),
+                fetch('https://raw.githubusercontent.com/lucasgois/chutermo/main/data/statistics/trinomios_por_posicao.json').then(r => r.json())
+            ]);
+
+            statistics.letrasFrequencia = letras;
+            statistics.letrasPorPosicao = letrasPosicao;
+            statistics.binomiosFrequencia = binomios;
+            statistics.binomiosPorPosicao = binomiosPosicao;
+            statistics.trinomiosFrequencia = trinomios;
+            statistics.trinomiosPorPosicao = trinomiosPosicao;
+
+            updateSuggestions();
+        } catch (error) {
+            console.error('Erro ao carregar dados:', error);
+            document.getElementById('suggestions').innerHTML = '<p class="empty-state">Erro ao carregar dados</p>';
+        }
+    }
+
+    function setMode(mode) {
+        currentMode = mode;
+        document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
+        const title = mode === 'exploration' ? 'Sugestões de Exploração' : 'Sugestões de Explotação';
+        document.getElementById('suggestionsTitle').textContent = title;
+
+        updateSuggestions();
+    }
+
+    function getValidWords() {
+        if (attempts.length === 0) return wordList;
+
+        let validWords = wordList.slice();
+
+        // Aplicar filtros baseados nas tentativas
+        for (const attempt of attempts) {
+            const correctLetters = {};
+            const presentLetters = new Set();
+            const absentLetters = new Set();
+
+            attempt.letters.forEach((letter, index) => {
+                if (letter.status === 'correct') {
+                    correctLetters[index] = letter.letter;
+                } else if (letter.status === 'present') {
+                    presentLetters.add(letter.letter);
+                } else if (letter.status === 'absent') {
+                    absentLetters.add(letter.letter);
+                }
+            });
+
+            validWords = validWords.filter(word => {
+                // Verificar letras corretas
+                for (const [pos, letter] of Object.entries(correctLetters)) {
+                    if (word[pos] !== letter) return false;
+                }
+
+                // Verificar letras presentes
+                for (const letter of presentLetters) {
+                    if (!word.includes(letter)) return false;
+                }
+
+                // Verificar letras ausentes
+                for (const letter of absentLetters) {
+                    // Se a letra está marcada como ausente mas também está presente ou correta, não excluir
+                    const isAlsoPresent = presentLetters.has(letter);
+                    const isAlsoCorrect = Object.values(correctLetters).includes(letter);
+
+                    if (!isAlsoPresent && !isAlsoCorrect && word.includes(letter)) {
+                        return false;
+                    }
+                }
+
+                // Verificar letras amarelas (presente mas não na posição)
+                for (let i = 0; i < attempt.letters.length; i++) {
+                    if (attempt.letters[i].status === 'present' && word[i] === attempt.letters[i].letter) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+        }
+
+        return validWords;
+    }
+
+    function calculateExplorationScore(word) {
+        const letters = word.split('');
+        const uniqueLetters = new Set(letters);
+        let score = 0;
+
+        // Penalizar letras duplicadas na exploração
+        score += uniqueLetters.size * 10;
+
+        // Usar frequência de letras
+        letters.forEach((letter, index) => {
+            const letterStats = statistics.letrasFrequencia.find(l => l.letra === letter);
+            if (letterStats) {
+                score += letterStats.peso * 5;
+            }
+
+            // Posição específica
+            const posStats = statistics.letrasPorPosicao[`posicao_${index}`]?.find(l => l.letra === letter);
+            if (posStats) {
+                score += posStats.peso * 3;
+            }
+        });
+
+        // Binômios
+        for (let i = 0; i < letters.length - 1; i++) {
+            const binomio = letters[i] + letters[i + 1];
+            const binStats = statistics.binomiosFrequencia.find(b => b.binomio === binomio);
+            if (binStats) {
+                score += binStats.peso * 2;
+            }
+        }
+
+        // Trinômios
+        for (let i = 0; i < letters.length - 2; i++) {
+            const trinomio = letters[i] + letters[i + 1] + letters[i + 2];
+            const triStats = statistics.trinomiosFrequencia.find(t => t.trinomio === trinomio);
+            if (triStats) {
+                score += triStats.peso * 3;
+            }
+        }
+
+        return score;
+    }
+
+    function calculateExploitationScore(word) {
+        const letters = word.split('');
+        let score = 0;
+
+        // Favorecer letras duplicadas comuns
+        const letterCount = {};
+        letters.forEach(letter => {
+            letterCount[letter] = (letterCount[letter] || 0) + 1;
+        });
+
+        // Usar frequência de letras com mais peso
+        letters.forEach((letter, index) => {
+            const letterStats = statistics.letrasFrequencia.find(l => l.letra === letter);
+            if (letterStats) {
+                score += letterStats.peso * 8;
+            }
+
+            // Posição específica com alto peso
+            const posStats = statistics.letrasPorPosicao[`posicao_${index}`]?.find(l => l.letra === letter);
+            if (posStats) {
+                score += posStats.peso * 6;
+            }
+        });
+
+        // Binômios com peso alto
+        for (let i = 0; i < letters.length - 1; i++) {
+            const binomio = letters[i] + letters[i + 1];
+            const binStats = statistics.binomiosFrequencia.find(b => b.binomio === binomio);
+            if (binStats) {
+                score += binStats.peso * 4;
+            }
+
+            const posBinStats = statistics.binomiosPorPosicao[`posicao_${i}`]?.find(b => b.binomio === binomio);
+            if (posBinStats) {
+                score += posBinStats.peso * 5;
+            }
+        }
+
+        // Trinômios com peso alto
+        for (let i = 0; i < letters.length - 2; i++) {
+            const trinomio = letters[i] + letters[i + 1] + letters[i + 2];
+            const triStats = statistics.trinomiosFrequencia.find(t => t.trinomio === trinomio);
+            if (triStats) {
+                score += triStats.peso * 6;
+            }
+
+            const posTriStats = statistics.trinomiosPorPosicao[`posicao_${i}`]?.find(t => t.trinomio === trinomio);
+            if (posTriStats) {
+                score += posTriStats.peso * 7;
+            }
+        }
+
+        return score;
+    }
+
+    function updateSuggestions() {
+        const validWords = getValidWords();
+
+        if (validWords.length === 0) {
+            document.getElementById('suggestions').innerHTML = '<p class="empty-state">Nenhuma palavra válida encontrada</p>';
+            return;
+        }
+
+        const scoredWords = validWords.map(word => ({
+            word,
+            score: currentMode === 'exploration'
+                ? calculateExplorationScore(word)
+                : calculateExploitationScore(word)
+        }));
+
+        scoredWords.sort((a, b) => b.score - a.score);
+        const topWords = scoredWords.slice(0, 50);
+
+        document.getElementById('suggestions').innerHTML = `
+                <div class="suggestion-list">
+                    ${topWords.map(item => `
+                        <div class="suggestion-item" onclick="useSuggestion('${item.word}')">
+                            ${item.word}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+    }
+
+    function useSuggestion(word) {
+        document.getElementById('wordInput').value = word;
+        addWord();
+    }
+
+    function addWord() {
+        const input = document.getElementById('wordInput');
+        const word = input.value.toUpperCase().trim();
+
+        if (word.length !== 5) {
+            alert('A palavra deve ter exatamente 5 letras!');
+            return;
+        }
+
+        if (!/^[A-ZÁÀÂÃÉÊÍÓÔÕÚÇÜ]+$/.test(word)) {
+            alert('Use apenas letras!');
+            return;
+        }
+
+        const letters = word.split('').map(letter => ({
+            letter: letter,
+            status: 'absent'
+        }));
+
+        attempts.push({ word, letters });
+        input.value = '';
+        renderAttempts();
+        updateSuggestions();
+    }
+
+    function cycleStatus(attemptIndex, letterIndex) {
+        const statuses = ['absent', 'present', 'correct'];
+        const currentStatus = attempts[attemptIndex].letters[letterIndex].status;
+        const currentIndex = statuses.indexOf(currentStatus);
+        const nextIndex = (currentIndex + 1) % statuses.length;
+
+        attempts[attemptIndex].letters[letterIndex].status = statuses[nextIndex];
+        renderAttempts();
+        updateSuggestions();
+    }
+
+    function removeAttempt(index) {
+        attempts.splice(index, 1);
+        renderAttempts();
+        updateSuggestions();
+    }
+
+    function renderAttempts() {
+        const container = document.getElementById('attempts');
+
+        if (attempts.length === 0) {
+            container.innerHTML = '<div class="empty-state">Nenhuma tentativa ainda. Digite uma palavra acima!</div>';
+            return;
+        }
+
+        container.innerHTML = attempts.map((attempt, attemptIndex) => `
+                <div class="attempt">
+                    <div class="word-row">
+                        ${attempt.letters.map((letter, letterIndex) => `
+                            <div
+                                class="letter-box status-${letter.status}"
+                                onclick="cycleStatus(${attemptIndex}, ${letterIndex})"
+                            >
+                                ${letter.letter}
+                            </div>
+                        `).join('')}
+                    </div>
+                    <button class="remove-btn" onclick="removeAttempt(${attemptIndex})">Remover</button>
+                </div>
+            `).join('');
+    }
+
+    // Adicionar palavra ao pressionar Enter
+    document.getElementById('wordInput').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            addWord();
+        }
+    });
+
+    // Aceitar apenas letras no input
+    document.getElementById('wordInput').addEventListener('input', function(e) {
+        this.value = this.value.toUpperCase().replace(/[^A-ZÁÀÂÃÉÊÍÓÔÕÚÇÜ]/g, '');
+    });
+
+    // Carregar dados ao iniciar
+    loadData();
+</script>
+</body>
+</html>
