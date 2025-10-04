@@ -255,22 +255,6 @@
 <div class="container">
     <h1>🎯 Chutermo</h1>
 
-    <div class="mode-selector">
-        <button class="mode-btn active" onclick="setMode('exploration')">
-            🔍 Exploração
-        </button>
-        <button class="mode-btn" onclick="setMode('exploitation')">
-            🎯 Explotação
-        </button>
-    </div>
-
-    <div class="suggestions-section">
-        <h3 id="suggestionsTitle">Sugestões de Exploração</h3>
-        <div id="suggestions" class="loading">
-            Carregando dados...
-        </div>
-    </div>
-
     <div class="input-section">
         <div class="input-wrapper">
             <input
@@ -290,6 +274,22 @@
     <div class="attempts" id="attempts">
         <div class="empty-state">
             Nenhuma tentativa ainda. Digite uma palavra acima!
+        </div>
+    </div>
+
+    <div class="mode-selector">
+        <button class="mode-btn active" onclick="setMode('exploration')">
+            🔍 Exploração
+        </button>
+        <button class="mode-btn" onclick="setMode('exploitation')">
+            🎯 Explotação
+        </button>
+    </div>
+
+    <div class="suggestions-section">
+        <h3 id="suggestionsTitle">Sugestões de Exploração</h3>
+        <div id="suggestions" class="loading">
+            Carregando dados...
         </div>
     </div>
 </div>
